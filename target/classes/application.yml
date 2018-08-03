@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/User
     username: root
-    password: 1860Unfall112!
+    password: Hamster12!?
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
 
