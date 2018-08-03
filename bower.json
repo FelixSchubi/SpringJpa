@@ -1,0 +1,17 @@
+{
+  "name": "Felix-Jpa-WebApp",
+  "homepage": "https://github.com/FelixSchubi/SpringJpa",
+  "authors": [
+    "FelixSchubi <felix.mammendorf@live.de>"
+  ],
+  "description": "Jpa-WebApp_A61",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,69 @@
+
+
+
+
+<link rel="import" href="bower_components/polymer/polymer.html">
+<!-- <link rel="import" href="bower_components/vaadin-date-picker/vaadin-date-picker.html">
+<link rel="import" href="bower_components/vaadin-dropdown-menu/vaadin-dropdown-menu.html">
+<link rel="import" href="bower_components/vaadin-upload/vaadin-upload.html">
+<link rel="import" href="bower_components/app-pouchdb/app-pouchdb-document.html"> -->
+
+
+
+<dom-module id="polymer-test">
+
+  <template>
+
+
+
+
+    <h1>Das Hier ist ein Test:</h1>
+    <b>vaadin-date-picker:</b>
+    <br>
+    
+
+    <!-- <input type="text" value="{{test}}">  
+    <div>
+        {{test}}
+    </div>  -->
+
+      
+      
+   
+ 
+ <p>  {{greeting}} </p>
+
+
+
+
+
+
+  </template>
+
+  <script>
+
+ 
+    class polymerTest extends Polymer.Element {
+
+      static get is() { return 'polymer-test'; }
+      
+    
+      static get properties() {
+          return {
+              greeting: {
+                  type: String,
+                    value: "Test"
+              }
+          };
+      }
+
+      
+        
+    }
+
+
+    customElements.define(polymerTest.is, polymerTest);
+
+  </script>
+
+</dom-module>

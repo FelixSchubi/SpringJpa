@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>User name</th>
+      <th>Real name</th>
+      <th>Good</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="thUser, status : ${user}">
+      <td th:text="${status.count}">1</td>
+      <td th:text="${thUser.name}">thUser name</td>
+      <td th:text="${thUser.firstName + ' ' + thUser.lastName}">Real name</td>
+      <td>
+        <span class="glyphicon glyphicon-ok" th:if="${thUser.good}"></span>
+        <span class="glyphicon glyphicon-remove" th:unless="${thUser.good}"></span>
+      </td>
+        </tr>
+
+      
+       <th>
+         <!--Aufruf einer Javascript Funktion mithilfe eines Button :=)-->
+          <button th:onclick="'javascript:GoToStart();'">Go Home</button>
+        </th>
+
+    </tbody>
+  </table>
+</div>
+</body>
+
+<script>
+
+ function GoToStart()
+  {
+    window.location = '/';   
+  }
+
+</script>
+
+</html>

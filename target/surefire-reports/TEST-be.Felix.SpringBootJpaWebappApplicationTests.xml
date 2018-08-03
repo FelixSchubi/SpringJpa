@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="be.Felix.SpringBootJpaWebappApplicationTests" time="0.006" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/Felix-Jpa-WebApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/felix/Schreibtisch/Arbeit/SERVER/SpringBoot/Jpa/Felix-Jpa-WebApp"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-29-generic"/>
+    <property name="user.home" value="/home/felix"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="felix"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="contextLoads" classname="be.Felix.SpringBootJpaWebappApplicationTests" time="0.006">
+    <error message="Unresolved compilation problems: &#10;	The import org.springframework.boot.test.SpringApplicationConfiguration cannot be resolved&#10;	SpringApplicationConfiguration cannot be resolved to a type&#10;" type="java.lang.Error"><![CDATA[java.lang.Error: Unresolved compilation problems: 
+	The import org.springframework.boot.test.SpringApplicationConfiguration cannot be resolved
+	SpringApplicationConfiguration cannot be resolved to a type
+
+	at be.Felix.SpringBootJpaWebappApplicationTests.<init>(SpringBootJpaWebappApplicationTests.java:6)
+]]></error>
+    <system-out><![CDATA[09:54:32.176 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.181 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:54:32.191 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:54:32.202 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [be.Felix.SpringBootJpaWebappApplicationTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+09:54:32.226 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [be.Felix.SpringBootJpaWebappApplicationTests], using WebDelegatingSmartContextLoader
+09:54:32.230 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericGroovyXmlWebContextLoader to process context configuration [ContextConfigurationAttributes@5bcab519 declaringClass = 'be.Felix.SpringBootJpaWebappApplicationTests', classes = '{}', locations = '{}', inheritLocations = false, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+09:54:32.233 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [be.Felix.SpringBootJpaWebappApplicationTests]: class path resource [be/Felix/SpringBootJpaWebappApplicationTests-context.xml] does not exist
+09:54:32.233 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [be.Felix.SpringBootJpaWebappApplicationTests]: class path resource [be/Felix/SpringBootJpaWebappApplicationTestsContext.groovy] does not exist
+09:54:32.233 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [be.Felix.SpringBootJpaWebappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:54:32.233 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@5bcab519 declaringClass = 'be.Felix.SpringBootJpaWebappApplicationTests', classes = '{}', locations = '{}', inheritLocations = false, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+09:54:32.234 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [be.Felix.SpringBootJpaWebappApplicationTests]: SpringBootJpaWebappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:54:32.266 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.267 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [be.Felix.SpringBootJpaWebappApplicationTests]: using defaults.
+09:54:32.270 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+09:54:32.283 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@87f383f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4eb7f003, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@eafc191, org.springframework.test.context.support.DirtiesContextTestExecutionListener@612fc6eb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1060b431, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@612679d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@11758f2a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e720b71, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b26f7b2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@491cc5c9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74ad1f1f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a1aab78]
+09:54:32.286 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.288 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.290 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.290 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:54:32.290 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:54:32.291 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [be.Felix.SpringBootJpaWebappApplicationTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+09:54:32.291 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [be.Felix.SpringBootJpaWebappApplicationTests], using WebDelegatingSmartContextLoader
+09:54:32.291 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericGroovyXmlWebContextLoader to process context configuration [ContextConfigurationAttributes@64f6106c declaringClass = 'be.Felix.SpringBootJpaWebappApplicationTests', classes = '{}', locations = '{}', inheritLocations = false, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+09:54:32.292 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [be.Felix.SpringBootJpaWebappApplicationTests]: class path resource [be/Felix/SpringBootJpaWebappApplicationTests-context.xml] does not exist
+09:54:32.292 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [be.Felix.SpringBootJpaWebappApplicationTests]: class path resource [be/Felix/SpringBootJpaWebappApplicationTestsContext.groovy] does not exist
+09:54:32.292 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [be.Felix.SpringBootJpaWebappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:54:32.292 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@64f6106c declaringClass = 'be.Felix.SpringBootJpaWebappApplicationTests', classes = '{}', locations = '{}', inheritLocations = false, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+09:54:32.293 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [be.Felix.SpringBootJpaWebappApplicationTests]: SpringBootJpaWebappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:54:32.296 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.297 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [be.Felix.SpringBootJpaWebappApplicationTests]: using defaults.
+09:54:32.299 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+09:54:32.299 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43a0cee9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@eb21112, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2eda0940, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3578436e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@706a04ae, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6eceb130, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10a035a0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67b467e9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47db50c5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c072e3f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d1b0d2a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@954b04f]
+09:54:32.299 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.300 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.300 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.300 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.302 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@77846d2c testClass = SpringBootJpaWebappApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@548ad73b testClass = SpringBootJpaWebappApplicationTests, locations = '{}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@578486a3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1dfe2924, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@d44fc21, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@4e7dc304], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+09:54:32.302 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [be.Felix.SpringBootJpaWebappApplicationTests]
+09:54:32.303 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [be.Felix.SpringBootJpaWebappApplicationTests]
+]]></system-out>
+  </testcase>
+</testsuite>

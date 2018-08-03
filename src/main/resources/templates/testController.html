@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Hallo :) </title>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head>
+<body>
+    <p th:text="'Hier ist der TestController!'"/> 
+    <p th:text="'Test ob Polymer hier auch noch funktioniert'"/> 
+    
+
+    <button id="Greet">Zur Begrüßung</button>
+    <button id="Home">Zur Startseite</button>
+
+
+</body>
+
+<script>
+
+document.getElementById("Home").addEventListener("click",GoToStart);
+
+function GoToStart()
+  {
+    window.location = '/';   
+  }
+
+
+document.getElementById("Greet").addEventListener("click",GoToGreet);
+
+function GoToGreet()
+  {
+    window.location = '/greeting';   
+  }
+
+</script>
+
+
+</html>
+
+
