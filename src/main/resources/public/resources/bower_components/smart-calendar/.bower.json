@@ -1,0 +1,39 @@
+{
+  "name": "smart-calendar",
+  "authors": [
+    "jQWidgets Ltd"
+  ],
+  "description": "Smart Calendar is a free HTML Calendar/Date Picker Element, built using native Javascript and CSS.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "smart calendar",
+    "calendar",
+    "date picker",
+    "html calendar",
+    "html date picker",
+    "javascript date picker"
+  ],
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^1.0.0",
+    "smart-core": "HTMLElements/smart-core"
+  },
+  "homepage": "https://github.com/HTMLElements/smart-calendar",
+  "version": "1.0.1",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "85d7a200099f237ec0fc1cae165c92c3746ccc87"
+  },
+  "_source": "https://github.com/HTMLElements/smart-calendar.git",
+  "_target": "^1.0.1",
+  "_originalSource": "HTMLElements/smart-calendar",
+  "_direct": true
+}
