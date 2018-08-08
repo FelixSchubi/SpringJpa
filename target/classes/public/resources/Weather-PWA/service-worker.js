@@ -3,8 +3,8 @@ var dataCacheName = 'weatherData-v1';
 
 // var filesToCache = [];
 var filesToCache = [
-  '../Weather-PWA/',
-  '../Weather-PWA/index.html',
+ // '../Weather-PWA/',
+  '../Weather-PWA/WetterIndex.html',
   '../Weather-PWA/scripts/app.js',
   '../Weather-PWA/scripts/localforage.js',
   '../Weather-PWA/scripts/indexeddb.js',
