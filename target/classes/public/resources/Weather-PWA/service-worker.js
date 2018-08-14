@@ -3,7 +3,7 @@ var dataCacheName = 'weatherData-v1';
 
 // var filesToCache = [];
 var filesToCache = [
- // '../Weather-PWA/',
+  '../../../index.html',
   '../Weather-PWA/WetterIndex.html',
   '../Weather-PWA/scripts/app.js',
   '../Weather-PWA/scripts/localforage.js',
@@ -70,6 +70,7 @@ self.addEventListener('activate', function(e) {
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   var dataUrl = 'https://query.yahooapis.com/v1/public/yql';
+  
   if (e.request.url.indexOf(dataUrl) > -1) {
     /*
      * When the request URL contains da

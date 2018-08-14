@@ -20,4 +20,22 @@
 <p>****************************************************</p>
 
 </body>
+
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('../../resources/Weather-PWA/service-worker.js')
+             .then(function() { console.log('Service Worker aus der index!'); });
+  };
+
+
+
+
+
+</script>
+
+
+
 </html>
