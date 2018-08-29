@@ -1,32 +1,32 @@
-var cacheName = 'MySpringJPA';
+var cacheName = 'weatherPWA-Mo 14. Aug 16:53:12 CEST 2017';
 var dataCacheName = 'weatherData-v1';
 
 // var filesToCache = [];
 var filesToCache = [
-  '../../../index.html',
-  '../Weather-PWA/WetterIndex.html',
-  '../Weather-PWA/scripts/app.js',
-  '../Weather-PWA/scripts/localforage.js',
-  '../Weather-PWA/scripts/indexeddb.js',
-  '../Weather-PWA/styles/inline.css',
-  '../Weather-PWA/images/clear.png',
-  '../Weather-PWA/images/cloudy-scattered-showers.png',
-  '../Weather-PWA/images/cloudy.png',
-  '../Weather-PWA/images/fog.png',
-  '../Weather-PWA/images/ic_add_white_24px.svg',
-  '../Weather-PWA/images/acc.svg',
-  '../Weather-PWA/images/album.svg',
-  '../Weather-PWA/images/earth-globe.svg',
-  '../Weather-PWA/images/Notes.svg',
-  '../Weather-PWA/images/reply.svg',
-  '../Weather-PWA/images/ic_refresh_white_24px.svg',
-  '../Weather-PWA/images/partly-cloudy.png',
-  '../Weather-PWA/images/rain.png',
-  '../Weather-PWA/images/scattered-showers.png',
-  '../Weather-PWA/images/sleet.png',
-  '../Weather-PWA/images/snow.png',
-  '../Weather-PWA/images/thunderstorm.png',
-  '../Weather-PWA/images/wind.png'
+  '',
+  'WetterIndex.html',
+  'scripts/app.js',
+  'scripts/localforage.js',
+  'scripts/indexeddb.js',
+  'styles/inline.css',
+  'images/clear.png',
+  'images/cloudy-scattered-showers.png',
+  'images/cloudy.png',
+  'images/fog.png',
+  'images/ic_add_white_24px.svg',
+  'images/acc.svg',
+  'images/album.svg',
+  'images/earth-globe.svg',
+  'images/Notes.svg',
+  'images/reply.svg',
+  'images/ic_refresh_white_24px.svg',
+  'images/partly-cloudy.png',
+  'images/rain.png',
+  'images/scattered-showers.png',
+  'images/sleet.png',
+  'images/snow.png',
+  'images/thunderstorm.png',
+  'images/wind.png'
 ];
 
 
@@ -70,7 +70,6 @@ self.addEventListener('activate', function(e) {
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   var dataUrl = 'https://query.yahooapis.com/v1/public/yql';
-  
   if (e.request.url.indexOf(dataUrl) > -1) {
     /*
      * When the request URL contains da

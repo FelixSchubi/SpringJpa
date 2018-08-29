@@ -53,11 +53,9 @@
 
   <main class="main">
 
-
-    <form>
-      <input type="button" value="Zurück zur Homepage" 
-      onclick="window.location.href='http://localhost:5050'" />
-      </form>
+    <form action="/">
+      <input type="submit" value="Zurück" />
+  </form>
 
 
     <div class="card cardTemplate weather-forecast" hidden>
@@ -225,7 +223,6 @@
   <!-- Uncomment the line below when ready to test with fake data -->
   <script src="scripts/localforage.js"></script>
   <script src="scripts/app.js" async></script>
-  <script scr="scripts/indexeddb.js" async></script>
   
   
 

@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/User
+    url: jdbc:mysql://localhost:3306/User?useSSL=false
     username: root
     password: Hamster12!?
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
 
-    # spring.datasource.tomcat.max-active=1
+   #  spring.datasource.tomcat.max-active=1

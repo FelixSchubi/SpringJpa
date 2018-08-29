@@ -1,14 +1,9 @@
-
+  <link rel="import" href="bower_components/polymer/polymer.html">
   <link rel="import" href="bower_components/polymer/polymer-element.html">
   <link rel="import" href="bower_components/iron-input/index.html">
 
 <dom-module id="my-test-component">
   <template>
-    <!-- Use one of these style declarations, but not both -->
-    <!-- Use this if you don’t want to include a shared style -->
-    <!-- <style></style> -->
-    <!-- Use this if you want to include a shared style -->
-    <!-- <style include="some-style-module-name"></style> -->
 
     <iron-input> </iron-input>
     <paper-slider></paper-slider>
@@ -19,7 +14,6 @@
       static get is() { return 'my-test-component'; }
       // All of these are optional. Only keep the ones you need.
       static get properties() {  }
-      static get observers() {  }
     }
 
     // Associate the new class with an element name
