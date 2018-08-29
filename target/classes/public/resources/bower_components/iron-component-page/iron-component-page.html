@@ -80,32 +80,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
     </style>
 
-    <iron-ajax
-        auto
-        url="[[descriptorUrl]]"
-        handle-as="json"
-        last-response="{{_descriptor}}"
-        loading="{{_loading}}"
-        last-error="{{_error}}">
-    </iron-ajax>
+
 
     <paper-toast id="loading-toast" opened="[[_loading]]" duration="0">
       Loading descriptor ...
     </paper-toast>
 
-    <paper-toast id="error-toast" opened="[[_error]]" duration="0">
-      Could not load descriptor "[[descriptorUrl]]". <br> [[_error.error]]
-    </paper-toast>
-
     <app-drawer-layout fullbleed narrow="{{_narrow}}">
 
       <app-drawer id="drawer" slot="drawer" swipe-open>
-        <iron-doc-nav
-            descriptor="[[_descriptor]]"
-            base-href="[[baseHref]]"
-            path="[[_path]]"
-            on-select="_onNavSelect">
-        </iron-doc-nav>
+     <b>Test Drawer Element</b>
       </app-drawer>
 
       <app-header-layout has-scrolling-region>
@@ -117,9 +101,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 hidden$="[[!_narrow]]">
             </paper-icon-button>
 
-            <div>[[_title]]</div>
+            <div>My Test Component</div>
           </app-toolbar>
         </app-header>
+
+      <div>
+          <b>Das ist ein Test</b> <br>
+        <p>Die modifizierte iron-component-page aufgerufen durch
+          myTestComponent
+        </p>
+      </div>
+
+
+      <img src="../images/Wetter.jpeg">
+      
+      <form action="/">
+        <input type="submit" value="Zurück" />
+    </form>
+
 
         <iron-doc-viewer
             id="viewer"
@@ -127,7 +126,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             root-namespace="[[rootNamespace]]"
             base-href="[[baseHref]]"
             demo-src-prefix="[[demoSrcPrefix]]"
-            title="{{_title}}"
+            title="iron-doc-viewer-> Titel"
             path="{{_path}}"
             on-view-changed="_onViewChanged">
         </iron-doc-viewer>
