@@ -24,12 +24,12 @@ public class UserController {
     }
 
 
-    @RequestMapping("/ShutDown")
-    // public void ShutDown(){
-    //     new SpringBootJpaWebappApplication.initiateShutdown();
+    // @RequestMapping("/ShutDown")
+    // // public void ShutDown(){
+    // //     new SpringBootJpaWebappApplication.initiateShutdown();
+    // // }
+    // public void initiateShutdown(String[] args){
+    //     SpringApplication.run(SpringBootJpaWebappApplication.class, args).close();
     // }
-    public void initiateShutdown(String[] args){
-        SpringApplication.run(SpringBootJpaWebappApplication.class, args).close();
-    }
 
 }
