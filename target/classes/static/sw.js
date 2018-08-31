@@ -11,7 +11,7 @@ this.addEventListener('install', event => {
   event.waitUntil(
     caches.open(currentCache.offline).then(function(cache) {
       return cache.addAll([
-         // './img/offline.svg',
+          'images/sw_model.png',
           offlineUrl
       ]);
     })
