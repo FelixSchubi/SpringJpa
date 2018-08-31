@@ -30,7 +30,7 @@
 
 <!-- 
 Wichtig für neuere Java Versionen
-					kann bei >9 auch weggelassen werden  -->
+					kann bei Java.<9 auch weggelassen werden  -->
 
 
 	<dependency>
