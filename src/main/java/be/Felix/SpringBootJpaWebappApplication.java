@@ -12,7 +12,7 @@ public class SpringBootJpaWebappApplication {
 
         OpenBrowser Chrome = new OpenBrowser();
         // Auskommentieren wenn der Browser nicht jedes mal geöffnet werden soll
-        Chrome.executeBashCommand("google-chrome http://localhost:5050");
+      //  Chrome.executeBashCommand("google-chrome http://localhost:5050");
     }
 
 

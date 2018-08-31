@@ -31,17 +31,21 @@
 
 
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-             .register('../../resources/Weather-PWA/service-worker.js')
-             .then(function() { console.log('Service Worker aus der index!'); });
-  };
 
 
-
-
-
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('sw.js').then(function(registration) {
+   
+    console.log('ServiceWorker registriert: ', registration.scope);
+}).catch(function(err) {
+    
+    	console.log('ServiceWorker nicht registriert: ', err);
+    });
+}
 </script>
+
+
+
 
 
 

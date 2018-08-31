@@ -10,11 +10,7 @@ public class OpenBrowser{
         boolean success = false;
         System.out.println("Executing BASH command:\n   " + command);
         Runtime r = Runtime.getRuntime();
-        // Use bash -c so we can handle things like multi commands separated by ; and
-        // things like quotes, $, |, and \. My tests show that command comes as
-        // one argument to bash, so we do not need to quote it to make it one thing.
-        // Also, exec may object if it does not have an executable file as the first thing,
-        // so having bash here makes it happy provided bash is installed and in path.
+  
         String[] commands = {"bash", "-c", command};
         try {
             Process p = r.exec(commands);
